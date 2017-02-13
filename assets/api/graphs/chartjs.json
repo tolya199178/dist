@@ -1,0 +1,102 @@
+{
+  "line-chart": {
+    "labels": ["January", "February", "March", "April", "May", "June", "July"],
+    "datasets": [
+      {
+        "label": "S250",
+        "fillColor": "rgba(220,220,220,0.2)",
+        "strokeColor": "rgba(220,220,220,1)",
+        "pointColor": "rgba(220,220,220,1)",
+        "pointStrokeColor": "#fff",
+        "pointHighlightFill": "#fff",
+        "pointHighlightStroke": "rgba(220,220,220,1)",
+        "data": [61, 59, 8, 18, 36, 55, 40]
+      },
+      {
+        "label": "F200",
+        "fillColor": "rgba(151,187,205,0.2)",
+        "strokeColor": "rgba(151,187,205,1)",
+        "pointColor": "rgba(151,187,205,1)",
+        "pointStrokeColor": "#fff",
+        "pointHighlightFill": "#fff",
+        "pointHighlightStroke": "rgba(151,187,205,1)",
+        "data": [81, 48, 40, 19, 68, 27, 90]
+      },
+      {
+        "label": "D80",
+        "fillColor": "rgba(251,287,305,0.2)",
+        "strokeColor": "rgba(251,287,305,1)",
+        "pointColor": "rgba(251,287,305,1)",
+        "pointStrokeColor": "#fff",
+        "pointHighlightFill": "#fff",
+        "pointHighlightStroke": "rgba(151,187,205,1)",
+        "data": [35, 23, 14, 29, 58, 27, 39]
+      }
+    ]
+  },
+  "radar-chart": {
+    "labels": ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+    "datasets": [
+      {
+        "label": "My First dataset",
+        "fillColor": "rgba(220,220,220,0.2)",
+        "strokeColor": "rgba(220,220,220,1)",
+        "pointColor": "rgba(220,220,220,1)",
+        "pointStrokeColor": "#fff",
+        "pointHighlightFill": "#fff",
+        "pointHighlightStroke": "rgba(220,220,220,1)",
+        "data": [65, 59, 90, 81, 56, 55, 40]
+      },
+      {
+        "label": "My Second dataset",
+        "fillColor": "rgba(151,187,205,0.2)",
+        "strokeColor": "rgba(151,187,205,1)",
+        "pointColor": "rgba(151,187,205,1)",
+        "pointStrokeColor": "#fff",
+        "pointHighlightFill": "#fff",
+        "pointHighlightStroke": "rgba(151,187,205,1)",
+        "data": [28, 48, 40, 19, 96, 27, 100]
+      }
+    ]
+  },
+  "polar-chart": {"datasets":[{"data":[11,16,7,3,14],"backgroundColor":["#FF6384","#4BC0C0","#FFCE56","#E7E9ED","#36A2EB"],"label":"My dataset"}],"labels":["Red","Green","Yellow","Grey","Blue"]},
+  "bar-chart":{
+    "labels": ["D200", "S300", "D250 ", "H200", "H100", "F200", "D80"],
+    "datasets": [
+      {
+        "label": "SUM",
+        "fillColor": "rgba(120,120,120,0.5)",
+        "strokeColor": "rgba(120,120,120,0.8)",
+        "highlightFill": "rgba(120,120,120,0.75)",
+        "highlightStroke": "rgba(120,120,120,1)",
+        "data": [65, 59, 80, 81, 56, 55, 40]
+      },
+      {
+        "label": "32GB",
+        "fillColor": "rgba(151,187,205,0.5)",
+        "strokeColor": "rgba(151,187,205,0.8)",
+        "highlightFill": "rgba(151,187,205,0.75)",
+        "highlightStroke": "rgba(151,187,205,1)",
+        "data": [10, 48, 40, 19, 20, 27, 10]
+      },
+      {
+        "label": "64GB",
+        "fillColor": "rgba(101,137,55,0.5)",
+        "strokeColor": "rgba(101,137,55,,0.8)",
+        "highlightFill": "rgba(101,137,55,,0.75)",
+        "highlightStroke": "rgba(101,137,55,,1)",
+        "data": [24, 2, 40, 50, 20, 1, 10]
+      },
+      {
+        "label": "128GB",
+        "fillColor": "rgba(81,217,235,0.5)",
+        "strokeColor": "rgba(81,217,235,0.8)",
+        "highlightFill": "rgba(81,217,235,0.75)",
+        "highlightStroke": "rgba(81,217,235,1)",
+        "data": [31, 9, 0, 11, 16, 27, 20]
+      }
+    ]
+  },
+  "doughnut-chart":{"labels":["Red","Blue","Yellow"],"datasets":[{"data":[300,50,100],"backgroundColor":["#FF6384","#36A2EB","#FFCE56"],"hoverBackgroundColor":["#FF6384","#36A2EB","#FFCE56"]}]},
+  "pie-chart": {"labels":["Red","Blue","Yellow"],"datasets":[{"data":[300,50,100],"backgroundColor":["#FF6384","#36A2EB","#FFCE56"],"hoverBackgroundColor":["#FF6384","#36A2EB","#FFCE56"]}]}
+}
